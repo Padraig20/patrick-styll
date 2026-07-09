@@ -10,6 +10,7 @@ const galleryData: Record<string, { src: string; caption: string }[]> = {
     { src: "/gallery/2026/3.jpeg", caption: "Took a boat ride on Lake Lucerne!" },
     { src: "/gallery/2026/4.png", caption: "My (very first) poster presentation at RECOMB 2026!" },
     { src: "/gallery/2026/5.jpeg", caption: "Met lots of fun people at the conference 👀" },
+    { src: "/gallery/2026/6.jpg", caption: "Sushi is an amazing dinner during a heatwave :)" },
   ],
   "2025": [
     { src: "/gallery/2025/1.jpeg", caption: "Leonardo took me hiking during my time in Madrid :)" },
@@ -24,7 +25,8 @@ const galleryData: Record<string, { src: string; caption: string }[]> = {
   "2024": [
     { src: "/gallery/2024/1.png", caption: "The whole Connectome Lab! Some members just graduated, and Prof. Cha also wanted me to be in the picture :)" },
     { src: "/gallery/2024/2.jpeg", caption: "So apparently there's an Austrian \"Stammtisch\" in Korea!" },
-    { src: "/gallery/2024/3.jpeg", caption: "Happened to meet with Jongsoo Choi, CTO of the Samsumg Medical Center. Great guy!" },
+    { src: "/gallery/2024/3.jpeg", caption: "Happened to meet with Jongsoo Choi in the Samsumg Medical Center!" },
+    { src: "/gallery/2024/9.jpeg", caption: "The Health Ministry of Bangladesh also happened to stop by SMC!" },
     { src: "/gallery/2024/4.jpeg", caption: "Junbeom, who was a member in the Connectome Lab, invited the whole lab to his wedding! All the best to him!!" },
     { src: "/gallery/2024/5.jpeg", caption: "Before I flew back home, Prof. Cha and my best friends from the lab invited me to dinner :)" },
     { src: "/gallery/2024/6.jpeg", caption: "My first conference presentation! CLEF 2024, Grenoble, France" },
