@@ -40,12 +40,7 @@ const Index = () => {
             alt="Profile photo"
             className="w-40 h-48 shrink-0"
           />
-          {/* Terminal-style label */}
-          <div className="absolute -bottom-2 left-0 right-0 text-center">
-            <span className="font-mono text-[10px] text-muted-foreground bg-card px-2 py-0.5 rounded border">
-              profile.jpg
-            </span>
-          </div>
+          
         </div>
         <div className="space-y-4 pt-2">
           <h1 className="text-3xl font-bold">
@@ -53,9 +48,14 @@ const Index = () => {
           </h1>
           <p className="text-muted-foreground leading-relaxed max-w-xl">
             Masters student in Computer Science at <span className="font-mono text-primary">[ETH Zürich]</span>, 
-            where I am currently being supervised by Prof. <span className="font-mono text-sm">[Cai Na]</span>.
-            I am excited about automation, especially in bioinformatics and medicine. I am currently obsessing over two areas specifically:
-            remote homology detection and sequence-to-function models.
+            where I am currently being supervised by Prof. <span className="font-mono text-sm">[Na Cai]</span>.
+            I am excited about automation, especially in biology and medicine.
+
+            <br/>
+
+            My latest obsession are (probabilistic) sequence-to-function models, especially in the
+            context of personalized prediction. Eventually, I hope to develop models that help us
+            understand the effects of genetic variation on disease risk.
 
             <br/>
 

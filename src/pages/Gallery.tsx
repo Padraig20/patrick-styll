@@ -11,6 +11,7 @@ const galleryData: Record<string, { src: string; caption: string }[]> = {
     { src: "/gallery/2026/4.png", caption: "My (very first) poster presentation at RECOMB 2026!" },
     { src: "/gallery/2026/5.jpeg", caption: "Met lots of fun people at the conference 👀" },
     { src: "/gallery/2026/6.jpg", caption: "Sushi is an amazing dinner during a heatwave :)" },
+    { src: "/gallery/2026/7.jpg", caption: "Andy Dahl from UChicago visited the lab!" },
   ],
   "2025": [
     { src: "/gallery/2025/1.jpeg", caption: "Leonardo took me hiking during my time in Madrid :)" },

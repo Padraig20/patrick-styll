@@ -17,8 +17,15 @@ const education = [
 
 const experience = [
   {
+    start: "Mar 2027",
+    end: "Aug 2027",
+    title: "Incoming Master's Thesis Researcher",
+    institution: "Harvard Medical School, Massachusetts General Hospital",
+    details: "Using scFMs and S2F models to understand how genetic variation affects gene expression and cellular states.",
+  },
+  {
     start: "Dec 2025",
-    end: "Present",
+    end: "Aug 2027",
     title: "Student Researcher",
     institution: "ETH Zürich",
     details: "Working on (personalized) sequence-to-function models, linking gene expression to phenotypes and traits.",
@@ -78,14 +85,14 @@ const supervisors = [
     role: "2025 - Present",
     institution: "ETH Zürich",
     description:
-      'Prof. Cai Na is my current supervisor at ETH Zürich, and an Assistant Professor in the Department of Biosystems Science and Engineering. She is an expert in quantitative genetics, and I feel very lucky to learn from her. She makes biological problems approachable and helps me understand the underlying biology rather than just applying some algorithmic black box. Thanks to her, I feel like I am learning how to actually ask the "right" biological questions. Apart from that, she is also just the loveliest and most supportive person! I\'m looking forward to keep working with her and learning from her!',
+      'Prof. Cai Na is my current supervisor at ETH Zürich, and an Assistant Professor in the Department of Biosystems Science and Engineering. She is an expert in quantitative genetics, and I\'m incredibly lucky to be her student. She makes biological problems approachable and helps me understand the underlying biology rather than just applying some algorithmic black box. Thanks to her, I feel like I am learning how to actually ask the "right" scientific questions. Apart from that, she is also just the loveliest and most supportive person, and genuinely cares about people!',
   },
   {
     name: "Prof. Martin C. Frith",
-    role: "2025 - Present",
+    role: "2025 - 2026",
     institution: "The University of Tokyo",
     description:
-      "Prof. Martin C. Frith is a Professor of computational biology at The University of Tokyo, with deep expertise in biological sequence analysis. I was lucky to work with him during a research visit in the summer of 2025, where we developed a new tool for finding distant relationships between genetic sequences. We are still actively working on this tool together! Martin was not only my door into the world of computational biology, but he actually taught me a lot about what science and research actually is. In general, I would say that he is one of the smartest people I have ever met!",
+      "Prof. Martin C. Frith is a Professor of computational biology at The University of Tokyo, with deep expertise in biological sequence analysis. I was lucky to work with him during a research visit in the summer of 2025, where we developed a new tool for finding distant relationships between genetic sequences, which we actively worked on even after my stay. Martin was not only my door into the world of computational biology, but he actually taught me a lot about what science and research actually is. He\'s one of the smartest people I have ever met!",
   },
   {
     name: "Prof. Jiook Cha",
@@ -238,15 +245,16 @@ const talks = [
 
 const awards = [
   { year: "2025", title: "Exzellenzstipendium NÖ", event: "State of Lower Austria, 30.000 EUR" },
+  { year: "2025", title: "UTSIP Scholarship", event: "The University of Tokyo, 750 EUR" },
   { year: "2024", title: "Stiftungsstipendium", event: "TU Wien, 2.500 EUR" },
   { year: "2024", title: "BHons Internship Scholarship", event: "TU Wien, 2.000 EUR" },
-  { year: "2023/24/25", title: "Excellence Scholarship", event: "TU Wien, 1.200 EUR" },
+  { year: "2023/24/25", title: "Excellence Scholarship", event: "TU Wien, 3 x 1.200 EUR" },
   { year: "2021", title: "ÖPG Student Award", event: "Österreichische Physikalische Gesellschaft, 500 EUR" },
 ];
 
 const volunteering = [
-  { start: "Sep 2024", end: "Aug 2025", title: "Co-Founder and Co-Organizer", organization: "Google Developer Group, TU Wien", details: "As co-founder and organizer of the Google Developer Group at the Technical University of Vienna (largest in Austria), I organize bi-weekly journal clubs and speaker series about intelligent systems with the help of my fellow organizers." },
-  { start: "Sep 2023", end: null, title: "Local Organizing Team", organization: "TU Wien", details: "Helped in organizing the European Summer School for Information Retrieval 2023, as part of the Data Science Research Unit under Dr. Allan Hanbury." },
+  { start: "Sep 2024", end: "Aug 2025", title: "Co-Founder and Co-Organizer", organization: "Google Developer Group, TU Wien", details: "I co-founded the now largest Google Developer Group in Austria, where I organized bi-weekly journal clubs and speaker series about intelligent systems with the help of my fellow organizers." },
+  { start: "Sep 2023", end: null, title: "Local Organizing Team", organization: "TU Wien", details: "Helped in organizing the European Summer School on Information Retrieval 2023, as part of the Data Science Research Unit under Dr. Allan Hanbury." },
   { start: "Sep 2024", end: "Jan 2025", title: "Mentor", organization: "TU Wien", details: "As a mentor, I look after a group of 20 mentees and accompany them with regular meetings through the first semester at the TU Wien." },
   { start: "Oct 2020", end: "Present", title: "Soldier", organization: "Austrian Armed Forces", details: "As a soldier of the Miliz, I ensure that critical infrastructures in the regions are safe and assist in security police assistance operations such as border surveillance and disaster relief." },
 ];
